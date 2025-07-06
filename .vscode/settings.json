@@ -1,0 +1,17 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "tailwindCSS.experimental.classRegex": [
+    "class\\s*=\\s*[\"']([^\"']*)[\"']",
+    "className\\s*=\\s*[\"']([^\"']*)[\"']",
+    "classList\\.add\\([\"']([^\"']*)[\"']\\)"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.customData": [".vscode/css_custom_data.json"]
+}

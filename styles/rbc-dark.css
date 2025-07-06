@@ -1,0 +1,131 @@
+/* Dark theme overrides for react-big-calendar */
+.dark .rbc-calendar {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+.dark .rbc-month-view,
+.dark .rbc-time-view {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+.dark .rbc-month-header {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-bottom: 1px solid #334155;
+}
+
+.dark .rbc-header {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-bottom: 1px solid #334155;
+  border-right: 1px solid #334155;
+}
+
+.dark .rbc-header + .rbc-header {
+  border-left: 1px solid #334155;
+}
+
+.dark .rbc-month-row {
+  border-bottom: 1px solid #334155;
+}
+
+.dark .rbc-day-bg {
+  background: #0f172a;
+  border-right: 1px solid #334155;
+}
+
+.dark .rbc-day-bg:hover {
+  background: rgba(2, 132, 199, 0.1);
+}
+
+.dark .rbc-off-range-bg {
+  background: #1e293b;
+  color: #64748b;
+}
+
+.dark .rbc-today {
+  background: rgba(2, 132, 199, 0.2);
+}
+
+.dark .rbc-selected-cell {
+  background: rgba(2, 132, 199, 0.3);
+}
+
+.dark .rbc-date-cell {
+  color: #f1f5f9;
+}
+
+.dark .rbc-date-cell.rbc-off-range {
+  color: #64748b;
+}
+
+.dark .rbc-button-link {
+  color: #f1f5f9;
+}
+
+.dark .rbc-show-more {
+  background: #334155;
+  color: #f1f5f9;
+}
+
+.dark .rbc-toolbar {
+  color: #f1f5f9;
+}
+
+.dark .rbc-toolbar button {
+  background: #334155;
+  color: #f1f5f9;
+  border: 1px solid #475569;
+}
+
+.dark .rbc-toolbar button:hover {
+  background: #475569;
+}
+
+.dark .rbc-toolbar button.rbc-active {
+  background: #0284c7;
+  color: white;
+}
+
+.dark .rbc-time-gutter {
+  background: #1e293b;
+  border-right: 1px solid #334155;
+}
+
+.dark .rbc-time-slot {
+  border-top: 1px solid #334155;
+}
+
+.dark .rbc-timeslot-group {
+  border-bottom: 1px solid #334155;
+}
+
+.dark .rbc-current-time-indicator {
+  background: #0284c7;
+}
+
+/* Ensure events remain visible in dark mode */
+.dark .rbc-event {
+  /* Events already have their own background colors, just ensure border visibility */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark .rbc-event-content {
+  color: white;
+}
+
+/* Week and day view styles */
+.dark .rbc-time-content {
+  border-left: 1px solid #334155;
+}
+
+.dark .rbc-time-header-content {
+  border-left: 1px solid #334155;
+}
+
+.dark .rbc-allday-cell {
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
+}

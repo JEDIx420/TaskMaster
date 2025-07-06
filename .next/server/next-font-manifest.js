@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/vincyvincent/Documents/TaskMaster/app/layout":["static/media/e4af272ccee01ff0-s.p.woff2","static/media/739c2d8941231bb4-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
