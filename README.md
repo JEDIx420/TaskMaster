@@ -20,7 +20,7 @@ A modern task management application with Pomodoro timer, AI chat assistant, and
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/your-username/TaskMaster.git
+git clone https://github.com/JEDIx420/TaskMaster.git
 cd TaskMaster
 npm install
 ```
